@@ -1,0 +1,117 @@
+{
+    "info": {
+        "name": "user",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "register",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/api/login",
+                    "path": [
+                        "api",
+                        "login"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "name",
+                            "value": "mohammed",
+                            "disabled": true
+                        },
+                        {
+                            "key": "email",
+                            "value": "mohammed.poop44@gmail.com"
+                        },
+                        {
+                            "key": "address",
+                            "value": "sohage",
+                            "disabled": true
+                        },
+                        {
+                            "key": "phone",
+                            "value": "01126929865",
+                            "disabled": true
+                        },
+                        {
+                            "key": "password",
+                            "value": "123456789"
+                        },
+                        {
+                            "key": "password_confirmation",
+                            "value": "123456789",
+                            "disabled": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "login",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/api/login",
+                    "path": [
+                        "api",
+                        "login"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "name",
+                            "value": "mohammed",
+                            "disabled": true
+                        },
+                        {
+                            "key": "email",
+                            "value": "mohammed.poop44@gmail.com"
+                        },
+                        {
+                            "key": "address",
+                            "value": "sohage",
+                            "disabled": true
+                        },
+                        {
+                            "key": "phone",
+                            "value": "01126929865",
+                            "disabled": true
+                        },
+                        {
+                            "key": "password",
+                            "value": "123456789"
+                        },
+                        {
+                            "key": "password_confirmation",
+                            "value": "123456789",
+                            "disabled": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
